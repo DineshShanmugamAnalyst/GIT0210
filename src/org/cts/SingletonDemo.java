@@ -20,7 +20,7 @@ public class SingletonDemo {
 	public static void main(String[] args) {
 		
 		SingletonDemo s1 =getObject(); 
-		
+	System.out.println("DineshS");	
 		System.out.println(System.identityHashCode(s1));
 		
 	SingletonDemo s2 =getObject(); 
